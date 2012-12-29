@@ -30,3 +30,6 @@ http://www.haijin-boys.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3
 
 ### Go言語 (go.msy)
 * Raw文字列リテラル `` `...` `` が色分けされません。これはMery本体の仕様上の制限です。
+
+### Haskell (haskell.msy)
+* 演算子の色分けには対応していません。
