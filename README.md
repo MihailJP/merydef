@@ -33,3 +33,7 @@ http://www.haijin-boys.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3
 
 ### Haskell (haskell.msy)
 * 演算子の色分けには対応していません。
+
+### OCaml (ocaml.msy)
+* ネスト可能なコメント `(* ... *)` が正しく処理されません。これはMery本体の仕様上の制限です。
+* 演算子の色分けには対応していません。
