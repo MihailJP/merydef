@@ -1,0 +1,66 @@
+﻿#TagBegin=
+#TagEnd=
+#CommentBegin1=
+#CommentEnd1=
+#LineComment1=
+#CommentBegin2=
+#CommentEnd2=
+#LineComment2=
+#SpecialSyntax=None
+#ScriptBegin=
+#ScriptEnd=
+#QuoteSingle=False
+#QuoteDouble=False
+#QuoteContinue=False
+#EscapeCharacter=
+
+#Word Color=0, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+(?<!\\)<([^^>\r\n]|\\>)+>
+(?<!\\)\[([^^\]\r\n]|\\\])+\]
+
+#Word Color=1, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+(?<!\\)\*([^^ \*\r\n]|\\\*)+\*
+(?<!\\)\*\*([^^ \*\r\n]|\\\*)+\*\*
+(?<!\\)_([^^ _\r\n]|\\_)+_
+(?<!\\)__([^^ _\r\n]|\\_)+__
+(?<=\s)\*([^^ \*\r\n]|\\\*)([^^\*\r\n]|\\\*)+\*
+(?<=\s)\*\*([^^ \*\r\n]|\\\*)([^^\*\r\n]|\\\*)+\*\*
+(?<=\s)_([^^ _\r\n]|\\_)([^^_\r\n]|\\_)+_
+(?<=\s)__([^^ _\r\n]|\\_)([^^_\r\n]|\\_)+__
+^^\*([^^ \*\r\n]|\\\*)([^^\*\r\n]|\\\*)+\*
+^^\*\*([^^ \*\r\n]|\\\*)([^^\*\r\n]|\\\*)+\*\*
+^^_([^^ _\r\n]|\\_)([^^_\r\n]|\\_)+_
+^^__([^^ _\r\n]|\\_)([^^_\r\n]|\\_)+__
+
+#Word Color=1, WholeWord=False, RightSide=True, MatchCase=False, InsideTag=False, RegEx=True
+^^(\s*=){3,}$
+
+#Word Color=2, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+^^\s*[\*\+\-]\s
+^^\s*\d+\.\s
+
+#Word Color=2, WholeWord=False, RightSide=True, MatchCase=False, InsideTag=False, RegEx=True
+^^(\s*-){3,}$
+^^(\s*\*){3,}$
+
+#Word Color=3, WholeWord=False, RightSide=True, MatchCase=False, InsideTag=False, RegEx=True
+^^( {4,}|\t+ *)(?!(\s|\*|\+|-|\d+\.))
+^^\s*>
+
+#Word Color=4, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+&^#?\w+;
+
+#Word Color=5, WholeWord=False, RightSide=True, MatchCase=False, InsideTag=False, RegEx=True
+^^^#{3,6}\s
+
+#Word Color=6, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+^^.+\r?\n-+$
+
+#Word Color=6, WholeWord=False, RightSide=True, MatchCase=False, InsideTag=False, RegEx=True
+^^^#^#\s
+
+#Word Color=7, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=True
+^^.+\r?\n\=+$
+
+#Word Color=7, WholeWord=False, RightSide=True, MatchCase=False, InsideTag=False, RegEx=True
+^^^#\s
