@@ -1,0 +1,31 @@
+﻿#TagBegin=
+#TagEnd=
+#CommentBegin1=
+#CommentEnd1=
+#LineComment1=
+#CommentBegin2=
+#CommentEnd2=
+#LineComment2=
+#SpecialSyntax=None
+#ScriptBegin=
+#ScriptEnd=
+#QuoteSingle=False
+#QuoteDouble=False
+#QuoteContinue=False
+#EscapeCharacter=
+
+#Word Color=1, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+<
+>
+
+#Word Color=2, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+,
+.
+
+#Word Color=3, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+[
+]
+
+#Word Color=4, WholeWord=False, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
++
+-
