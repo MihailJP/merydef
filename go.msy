@@ -34,6 +34,7 @@ interface
 map
 package
 range
+return
 select
 struct
 switch
